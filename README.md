@@ -82,14 +82,17 @@ This code is © J. Hemmerich, 2020, and it is made available under the GPL licen
 
 If you use this software for an academic publication then you are obliged to provide proper attribution. Please use the following citation:
 
-@misc{Hemmerich2020,
-	title = {{KNIME} {Structure} {Standardisation} {Workflow}},
+```
+@software{Hemmerich2020,
+	title = {{KNIME} Structure Standardisation Workflow},
+	url = {https://github.com/PharminfoVienna/Chemical-Structure-Standardisation},
+	version = {0.2.0},
 	publisher = {Department of Pharmaceutical Chemistry, University of Vienna},
 	author = {Hemmerich, Jennifer},
-	month = jan,
-	year = {2020}
-	version = {0.2.0}
+	date = {2020-01-31},
+	note = {https://kni.me/w/{auOFJsQKZXJmSc}\_9}
 }
+```
 
 
 
