@@ -72,7 +72,7 @@ But not only this, a simple molecule such as ethanol can have various correct re
 
 If we would keep this, we could accidentally only dock or predict the Chloride, missing out on the Carbachol which fits into our pocket, or we calculate the descriptors for the Chloride instead of the Carcachol we would want to use. For Chloride our Programs would probably warn us as it is not an organic molecules, but for Sunitinib we have a higher Chance to use DMSO as it is an organic compound.
 
-For our standardisation we chose to use the standardiser as proposed by Francis Atkinson from the EMBL-EBI. The tool was developed for the e-Tox Project (https://wwwdev.ebi.ac.uk/chembl/extra/francis/standardiser/). It is available trough the Python Package Index as a Python Package. However since Summer 2019 RDKit contains the functionality of another python library for standardisation molVS. Thus, we upgraded the node to only rely on RDKit, therefore the standardiser library is not needed anymore.
+For our standardisation we chose to use a standardisation protocol as proposed by Francis Atkinson from the EMBL-EBI. The tool was developed for the e-Tox Project (https://wwwdev.ebi.ac.uk/chembl/extra/francis/standardiser/). It is available trough the Python Package Index as a Python Package. However since Summer 2019 RDKit (https://www.rdkit.org/ and https://www.rdkit.org/docs/source/rdkit.Chem.MolStandardize.rdMolStandardize.html) contains the functionality of another python library for standardisation molVS (https://github.com/mcs07/MolVS/blob/master/docs/source/index.rst). Thus, we upgraded the node to only rely on RDKit, therefore the standardiser library is not needed anymore.
 
 # Citation
 ----------------------------
