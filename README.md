@@ -12,16 +12,17 @@ Jennifer Hemmerich, jennifer.hemmerich[at]univie.ac.at
 ## Important Note:
 ----------------------
 
-The workflow requires you to have an anaconda environment with python 3.6 or above and RDKit (2019 and above) installed. 
+The workflow requires you to have an anaconda environment with python 3.6 or above and RDKit (2019 and above) installed.    
 
 Further instructions how to set this up can be found here:
 https://docs.knime.com/latest/python_installation_guide/index.html
 
-
+The workflow can also be retrieved from the KNIME Hub at https://kni.me/w/auOFJsQKZXJmSc_9, however please use the support email or github for any issues related to the workflow
 
 # Dependencies
 --------------
 Python >= 3.6.X
+
 RDKit >= 2019.X.X
 
 # Usage:
